@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SuccinctEdge_cata"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SuccinctEdge_cata">
+				<Option output="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/SuccinctEdge_cata.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xu/include"/>
+					<Add directory="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/usr/include"/>
+					<Add directory="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/./lib/sdsl-lite-2.1.1/include"/>
+					<Add directory="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/./lib/mosquitto-master/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 SuccinctEdge_cata"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SuccinctEdge_cata/fast">
+				<Option output="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/SuccinctEdge_cata.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/xu/include"/>
+					<Add directory="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/usr/include"/>
+					<Add directory="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/./lib/sdsl-lite-2.1.1/include"/>
+					<Add directory="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/./lib/mosquitto-master/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 SuccinctEdge_cata/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/BitMap.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/BitMap.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/Constant.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataBlock.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataBlock.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataSeries.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataSeries.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataTypeStore.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataTypeStore.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/DataWindowUtil.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/Dictionary.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/Dictionary.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/JoinLine.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/JoinLine.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/JoinTable.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/JoinTable.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/JoinVariables.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/JoinVariables.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/LiteMatDictionary.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/LiteMatDictionary.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/MiniBatchUtil.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/PropertyLiteMatDictionary.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/PropertyLiteMatDictionary.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/QueryEngine.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/QueryEngine.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/RDFStorage.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/RDFStorage.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/RDFTypeStore.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/RDFTypeStore.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/RankBaseElement.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/RankBaseElement.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/ShowResults.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/StrDataRankBaseElement.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/StrDataRankBaseElement.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TCPReceiver.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TCPReceiver.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TimeUtil.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TriplePattern.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TriplePattern.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TripleStore.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/TripleStore.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/Util.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/main.cpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/quickSortTS.hpp">
+			<Option target="SuccinctEdge_cata"/>
+		</Unit>
+		<Unit filename="C:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

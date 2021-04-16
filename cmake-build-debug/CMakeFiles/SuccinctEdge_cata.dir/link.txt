@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SuccinctEdge_cata.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\SuccinctEdge_cata.dir/objects.a @CMakeFiles\SuccinctEdge_cata.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -pthread -g   -Wl,--whole-archive CMakeFiles\SuccinctEdge_cata.dir/objects.a -Wl,--no-whole-archive  -o SuccinctEdge_cata.exe -Wl,--out-implib,libSuccinctEdge_cata.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SuccinctEdge_cata.dir\linklibs.rsp

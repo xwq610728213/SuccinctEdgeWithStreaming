@@ -1,0 +1,1 @@
+  -L/Users/xu/lib  -L/usr/lib  -LC:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/./lib/sdsl-lite-2.1.1/lib  -LC:/Users/pasyj/Documents/edgent/SuccinctEdgePrivate/./lib/mosquitto-master/lib  -lsdsl -ldivsufsort -ldivsufsort64 -llibmosquitto -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

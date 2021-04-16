@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\pasyj\Documents\edgent\SuccinctEdgePrivate
+It is already used for project \home\pi\Downloads\SuccinctEdgePrivate
+
+Please either delete it manually or select another generation directory

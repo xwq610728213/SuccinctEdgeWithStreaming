@@ -13,7 +13,7 @@ std::mutex lock_tcp;
 std::vector<std::string> query = {};
 std::vector<std::string> query_buffer = {};
 //std::string url = "localhost";
-const char* url = "192.168.43.116";
+const char* url = "localhost";
 
 // Shouldn't be used
 extern std::vector<std::string> columns {"\"1\"","\"Timestamp_1\""};
@@ -143,7 +143,7 @@ void tcpReceiver(){
         mosquitto_message_callback_set(mosq, on_message);
         mosquitto_subscribe_v5(mosq, NULL, "test", 2, 0, NULL);
         
-        for(int i = 1; i <= 100; i++){
+        for(int i = 1; i <= 120; i++){
             mosquitto_subscribe_v5(mosq, NULL, std::to_string(i).c_str(), 2, 0, NULL);
         }
 
@@ -174,7 +174,7 @@ void mosquitto_looping(){
         mosquitto_connect(mosq, url, 1883, 1000);
         mosquitto_message_callback_set(mosq, on_message);
         
-        for(int i = 1; i <= 3; i++){
+        for(int i = 1; i <= 120; i++){
             mosquitto_subscribe_v5(mosq, NULL, ("Topic" + std::to_string(i)).c_str(), 2, 0, NULL);
         }
     }

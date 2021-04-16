@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Downloads/SuccinctEdgePrivate/TCPReceiver.cpp
+TCPReceiver.hpp
+/home/pi/Downloads/SuccinctEdgePrivate/TCPReceiver.hpp
+
+/home/pi/Downloads/SuccinctEdgePrivate/TCPReceiver.hpp
+unistd.h
+-
+cstdio
+-
+cstdlib
+-
+iostream
+-
+unordered_map
+-
+thread
+-
+vector
+-
+regex
+-
+mutex
+-
+fstream
+-
+mosquitto.h
+-
+mqtt_protocol.h
+-
+
