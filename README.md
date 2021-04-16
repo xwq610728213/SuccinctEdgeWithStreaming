@@ -14,17 +14,10 @@ An executable file named `SuccinctEdge_cata` will be generated.
 
 ## Run the test
 
+To be modified.
+
 The execution command is in the form of:
 
-    ./SuccinctEdge_cata data_path query_path persist_path tbox_path reasoning show_result
+    ./SuccinctEdge_cata data_path query_path persist_path tbox_path reasoning show_result active_plan mini_batch server
 
 
-To conduct a test for lubm1 with RDFS reasoning:
-        
-    ./SuccinctEdge_cata test_data/lubm1.ttl test_query/lubm_query.sparql store/lubm test_tbox/ true false
-
-To conduct a test for a small test data without reasoning:
-        
-    ./SuccinctEdge_cata test_data/smallDataExample.nt test_query/small_data_query.sparql store/small_data_example test_tbox/ false false
-        
-The `show_result` parameter can be changed aiming at showing all the results in terminal.
