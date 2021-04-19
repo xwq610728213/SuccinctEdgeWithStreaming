@@ -19,7 +19,7 @@ The execution command is in the form of:
 
     ./SuccinctEdge_cata data_path query_path persist_path tbox_path reasoning show_result active_plan mini_batch server
 
-##Generating Sensors
+## Generating Sensors
 
 A jar called sensor_generator.jar can be used to generate sensors and values to test SuccinctEdgeWithStreaming. The jar is used with the following command line
 
