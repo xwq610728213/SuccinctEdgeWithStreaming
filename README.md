@@ -18,6 +18,16 @@ An executable file named `SuccinctEdge_cata` will be generated.
 The execution command is in the form of:
 
     ./SuccinctEdge_cata data_path query_path persist_path tbox_path reasoning show_result active_plan mini_batch server
+    
+where reasoning, show_result, active_plan, mini_batch, server are either true or false.
+
+For example, in order tu run the test of multi-sensors as a client, we use command:
+
+    ./SuccinctEdge_cata ./test_data/sensor_test.nt ./test_query/sensor_test.sparql ./store/sensor_test simu_tbox false true true false false
+    
+while the command to run the test as a server is:
+
+    ./SuccinctEdge_cata ./test_data/sensor_test.nt ./test_query/sensor_test.sparql ./store/sensor_test simu_tbox false true true false true
 
 ## Generating Sensors
 
